@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<app xmlns="http://www.multiable.com/app">
+	<name>opcq</name>
+	<version>1.0</version>
+	<description>Opcq App</description>
+	<dependences>
+		<dependence id="caw" versions="1.0" />
+	</dependences>	
+	<ear>caw_ear</ear>
+	<ejb>p-ejb</ejb>	
+</app>

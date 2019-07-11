@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<pattern xmlns="http://www.multiable.com/pattern">
+
+	<record code="opcqBookCat" type="lookup">
+		<lookup searchType="opcqBookCat"/>
+	</record>
+	
+	<record code="opcqBook" type="lookup">
+		<lookup searchType="opcqBook"/>
+	</record>			
+	
+	<record code="opcqMem" type="lookup">
+		<lookup searchType="opcqMem"/>
+	</record>
+</pattern>

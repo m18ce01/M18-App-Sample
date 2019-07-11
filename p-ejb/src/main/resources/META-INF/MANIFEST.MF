@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Dependencies: org.apache.httpcomponents, com.alibaba.fastjson, org.jbo
+ ss.resteasy.resteasy-jaxrs, caw.core.base, org.joda.time, com.fasterx
+ ml.jackson.core.jackson-annotations, com.fasterxml.jackson.core.jacks
+ on-core, com.fasterxml.jackson.core.jackson-databind, org.mozilla.rhi
+ no ,net.coobird.thumbnailator
+

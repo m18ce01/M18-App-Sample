@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<nm xmlns="http://www.multiable.com/navmenu" app="opcq">
+	
+	<folder code="m18Opcq" messCode="opcq.opcqApp">
+		<menu code="opcqBookCat" messCode="opcq.bookCat" src="view/opcq/module/opcqBookCat" module="opcqBookCat" mType="FM" order="1000">			
+			<inherit name ="module_fc" />
+		</menu>	
+		<menu code="opcqBook" messCode="opcq.book" src="view/opcq/module/opcqBook" module="opcqBook" mType="FM" order="2000">			
+			<inherit name ="module_fc" />
+		</menu>	
+		<menu code="opcqMem" messCode="opcq.mem" src="view/opcq/module/opcqMem" module="opcqMem" mType="FM" order="3000">			
+			<inherit name ="module_fc" />
+		</menu>		
+		<folder code="biOpcq" messCode="opcq.ebi" order="4000">
+			<icon name="cicon-ebi" library="font/cawIcon"/>
+			<menu code="M18_EBI_OPCQMEM" messCode="opcq.memRep" src="view/module/ebi/ebi" mType="EBI" order="1000">
+				<icon name="cicon-ebi-report" library="font/cawIcon"/>
+				<inherit name="module_ebi"/>
+			</menu>
+		</folder>
+	</folder>	
+</nm>

@@ -1,0 +1,5 @@
+select a.id, a.hId, a.bookId
+from opcqmemt a
+		inner join opcqmem m on a.hId = m.id
+where ${[lookupCond('m.id', @D_mem)]}
+	and ${[lookupCond('a.bookId', @D_book)]};

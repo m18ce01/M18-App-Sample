@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ebiBuilder>
+  <ebi beId_ASCODE="" buildIn="true" code="M18_EBI_OPCQMEM" createDate="2019-07-10 12:20:48" desc="Member Report" expired="false" expiredDate="1900-01-01 00:00:00" exportDate="2019-07-10 17:06:40" hideGrouped="false" lastModifyDate="2019-07-10 12:20:59" locked="false" messcode="" moduleCode="" printCount="0" qSourceId_ASCODE="M18_QS_OPCQMEM" qSourceType="QuerySet" reportOptionNum="0" status="Y" statusModifyDate="2019-07-10 12:20:48" useBe="true" viewCode="ebiBuilder">
+    <ebibuilderoutput code="MAIN_bookId" hide="true" messCode="opcq.bookIsbn"/>
+    <ebibuilderoutput code="MAIN_hId" hide="true" messCode="opcq.mem"/>
+    <ebibuilderoutput code="MAIN_id" hide="true" messCode="core.id"/>
+  </ebi>
+</ebiBuilder>

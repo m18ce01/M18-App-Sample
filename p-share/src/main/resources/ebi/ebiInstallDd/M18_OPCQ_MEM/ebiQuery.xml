@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ebiQuery>
+  <query beId_ASCODE="" buildIn="true" code="M18_Q_SIM_OPCQMEMT" createDate="2019-07-10 12:08:32" defOutputTable="" desc="Member (Book)" dsId_ASCODE="" expired="false" expiredDate="1900-01-01 00:00:00" exportDate="2019-07-10 17:06:40" lastModifyDate="2019-07-10 12:08:32" locked="false" printCount="0" status="Y" statusModifyDate="2019-07-10 12:08:32" struct="true" viewCode="qQuery">
+    <query_table alias="A" autoMap="true" inputMess="" joinType="Unsupported" lookupField="" lookupType="" lot="1" order="1" queryMainTable="true" showRecordInfo="false" showSysField="false" skipOutput="false" tableMess="opcq.memt" tableName="opcqmemt" withLookup="false"/>
+  </query>
+  <query beId_ASCODE="" buildIn="true" code="M18_Q_OPCQMEM" createDate="2019-07-10 12:10:21" defOutputTable="" desc="Member" dsId_ASCODE="" expired="false" expiredDate="1900-01-01 00:00:00" exportDate="2019-07-10 17:06:40" lastModifyDate="2019-07-10 12:10:21" locked="false" printCount="0" status="Y" statusModifyDate="2019-07-10 12:10:21" struct="true" viewCode="qQuery">
+    <query_table alias="A" autoMap="true" inputMess="" joinType="Unsupported" lookupField="" lookupType="" lot="1" order="1" queryMainTable="true" showRecordInfo="true" showSysField="false" skipOutput="false" tableMess="opcq.mem" tableName="opcqmem" withLookup="false"/>
+  </query>
+  <query beId_ASCODE="" buildIn="true" code="M18_OPCQ_MEM_REP" createDate="2019-07-10 12:17:09" defOutputTable="" desc="Member Report" dsId_ASCODE="" expired="false" expiredDate="1900-01-01 00:00:00" exportDate="2019-07-10 17:06:40" lastModifyDate="2019-07-10 12:34:31" locked="false" printCount="0" status="Y" statusModifyDate="2019-07-10 12:17:09" struct="false" viewCode="qQuery">
+    <query_input code="book" criteriaType="Unsupported" dataType="Lookup" itemNo="     2" lookupType="opcqBook" messCode="opcq.book" pattern=""/>
+    <query_input code="mem" criteriaType="Unsupported" dataType="Lookup" itemNo="     1" lookupType="opcqMem" messCode="opcq.mem" pattern=""/>
+    <query_output code="bookId" colName="bookId" dataType="Auto" hideZeroField="" messCode="" ncField="" ncLookupTypeField="" precision="0" scale="0" tableName="opcqmemt"/>
+    <query_output code="hId" colName="hId" dataType="Auto" hideZeroField="" messCode="" ncField="" ncLookupTypeField="" precision="0" scale="0" tableName="opcqmemt"/>
+    <query_output code="id" colName="id" dataType="Auto" hideZeroField="" messCode="" ncField="" ncLookupTypeField="" precision="0" scale="0" tableName="opcqmemt"/>
+  </query>
+</ebiQuery>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<si xmlns="http://www.multiable.com/stInfo">
+
+    <stInfo name="opcqBookCat" mess="opcq.bookCat" table="opcqbookcat">
+    </stInfo>    
+    
+	<stInfo name="opcqBook" mess="opcq.book" table="opcqbook">
+		<relation col="bookCatId" tarSt="opcqBookCat" tarCol="id"/>
+    </stInfo>  
+    
+    <stInfo name="opcqMem" mess="opcq.mem" table="opcqmem">
+    </stInfo>  
+</si>

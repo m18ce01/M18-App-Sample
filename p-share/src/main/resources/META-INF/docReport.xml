@@ -1,0 +1,13 @@
+<docReport>
+	<report module="opcqMem" code="@opcq_mem_sql" reportDto="com.multiable.opcq.share.data.ireport.mem.MemJrDto"
+	        providerCode="com.multiable.opcq.ireport.provider.mem.MemProvider" providerOrder="1" providerMess="opcq.memPrinting" 
+	        reportDtoSettingSrc="/view/opcq/dialog/memPrintSetting.xhtml">   
+		 <format code="@opcq_mem_sql" remark="Print Member (sqltable)" description="Print Member" 
+		         packageName="com.multiable.opcq.share.data.ireport.resource.report.mem" expired="false">
+	        <jrxml name="Prtup.jrxml" main="true"></jrxml>
+	        <jrxml name="Prtupt.jrxml"></jrxml>
+	     </format>
+	</report>
+
+	<resetData prCode="com.multiable.erp.trdg.ireport.provider.up.upProvider" resetClass ="com.multiable.erp.trdg.ireport.provider.up.upRestData" order="1" />
+</docReport>

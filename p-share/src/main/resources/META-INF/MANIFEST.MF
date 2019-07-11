@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Dependencies: org.apache.httpcomponents, org.javassist, org.apache.com
+ mons.beanutils, net.sf.ehcache, caw.core.base, com.alibaba.fastjson, 
+ org.jboss.resteasy.resteasy-jaxrs,net.sf.jasperreports,com.lowagie.it
+ ext,org.quartz-scheduler, org.apache.commons.lang
+

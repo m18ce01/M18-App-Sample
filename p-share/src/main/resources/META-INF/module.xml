@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<md xmlns="http://www.multiable.com/module" app="opcq">
+
+	<module name="opcqBookCat" mess="opcq.bookCat" extend="false" mainTable="opcqbookcat" recType="" useAccess="true" useAttach="true" useBeShare="true" useApv="true" useChangenote="true" fmShare="Y" genCode_Type="BC">
+		<table name="opcqbookcat" key="id" c="true" r="true" d="true" u="true" initRow="1" hpk="" fKey="" order=""/>
+	</module>		
+	
+	<module name="opcqBook" mess="opcq.book" extend="false" mainTable="opcqbook" recType="" useAccess="true" useAttach="true" useBeShare="true" useApv="true" useChangenote="true" fmShare="Y" genCode_Type="BK">
+		<table name="opcqbook" key="id" c="true" r="true" d="true" u="true" initRow="1" hpk="" fKey="" order=""/>
+	</module>
+	
+	<module name="opcqMem" mess="opcq.mem" extend="false" mainTable="opcqmem" recType="" useAccess="true" useAttach="true" useBeShare="true" useApv="true" useChangenote="true" fmShare="Y" importThreadMode="false" genCode_Type="MEM">
+		<table name="opcqmem" key="id" c="true" r="true" d="true" u="true" initRow="1" hpk="" fKey="" order=""/>
+		<table name="opcqmemt" key="id" c="true" r="true" d="true" u="true" initRow="0" hpk="hId" fKey="" order="" cpnType="table"/>
+	</module>
+</md>

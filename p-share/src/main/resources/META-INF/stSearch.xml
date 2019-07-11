@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ss xmlns="http://www.multiable.com/stSearch">
+	
+	<stSearch name="opcqBookCat" mess="opcq.bookCat" srcSt="opcqBookCat" maxLevel="3"
+		desc="#opcqBookCat#.desc;' (';#opcqBookCat#.code;')'"
+		defCond="#opcqBookCat#.id != 0" sort="#opcqBookCat#.code" accessModule="opcqBookCat">
+		<format mess="core.defFormat">
+			<col col="code" mess="core.code"/>
+			<col col="desc" mess="core.description"/>
+		</format>
+	</stSearch>	
+
+	<stSearch name="opcqBook" mess="opcq.book" srcSt="opcqBook" maxLevel="3"
+		desc="#opcqBook#.desc;' (';#opcqBook#.code;')'"
+		defCond="#opcqBook#.id != 0" sort="#opcqBook#.code" accessModule="opcqBook">
+		<format mess="core.defFormat">
+			<col col="code" mess="opcq.isbn"/>
+			<col col="desc" mess="opcq.title"/>
+			<col col="author" mess="opcq.author"/>
+		</format>
+	</stSearch>	
+	
+	<stSearch name="opcqMem" mess="opcq.mem" srcSt="opcqMem" maxLevel="3"
+		desc="#opcqMem#.desc;' (';#opcqMem#.code;')'"
+		defCond="#opcqMem#.id != 0" sort="#opcqMem#.code" accessModule="opcqMem">
+		<format mess="core.defFormat">
+			<col col="code" mess="opcq.cardNum"/>
+			<col col="desc" mess="opcq.name"/>
+			<col col="email" mess="opcq.email"/>
+			<col col="addr" mess="opcq.address"/>
+		</format>
+	</stSearch>	
+</ss>

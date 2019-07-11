@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ebiQuerySet>
+  <querySet beId_ASCODE="" buildIn="true" code="M18_QS_OPCQMEM" createDate="2019-07-10 12:19:09" desc="Member Report" expired="false" expiredDate="1900-01-01 00:00:00" exportDate="2019-07-10 17:06:40" lastModifyDate="2019-07-10 12:19:09" locked="false" mainQueryId_ASCODE="M18_OPCQ_MEM_REP" printCount="0" status="Y" statusModifyDate="2019-07-10 12:19:09" viewCode="qQuerySet">
+    <queryset_extquery alias="T1" extQueryId_ASCODE="M18_Q_OPCQMEM" lot="1" messCode="opcq.mem"/>
+    <queryset_extquery alias="T2" extQueryId_ASCODE="M18_Q_SIM_OPCQMEMT" lot="2" messCode="opcq.memt"/>
+    <queryset_extquery_join extCol="A_id" hLot="1" mainCol="hId"/>
+    <queryset_extquery_join extCol="A_id" hLot="2" mainCol="id"/>
+  </querySet>
+</ebiQuerySet>
