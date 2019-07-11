@@ -33,7 +33,8 @@
 						<caw:fluidPanel id="memBook" column="1">	
 							<caw:editTable id="opcqmemt" tableName="opcqmemt" primarykey="bookId">
 								<caw:constraints rowHold="true" style="padding-top: 10px;" />	
-								<caw:tableColumn columnName="bookId" edittype="cawLookup" multiSelect="true"/>	
+								<caw:tableColumn columnName="bookId" edittype="cawLookup" multiSelect="true"/>
+								<caw:tableColumn columnName="bookIsbn" edittype="cawText" editable="false" mess-label="opcq.bookIsbn"/>	
 								<caw:tableColumn columnName="bookDesc" edittype="cawText" editable="false" mess-label="opcq.bookTitle"/>
 								<caw:tableColumn columnName="bDate" edittype="cawDate"/>	
 								<caw:tableColumn columnName="rDate" edittype="cawDate"/>										

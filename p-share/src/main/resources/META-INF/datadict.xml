@@ -11,7 +11,8 @@
 	
 	<table name="opcqbook" mess="opcq.book" pk="id" >
 		<inherit name="module_fm" />
-		<column name="code" type="varchar" mess="opcq.isbn" length="20" defPattern="fmCode" required="true" batchUpdate="false"/>
+		<column name="code" type="varchar" mess="opcq.bookCode" length="40" defPattern="fmCode" required="true" batchUpdate="false"/>
+		<column name="isbn" type="varchar" mess="opcq.isbn" length="40" defPattern="char20" required="true" batchUpdate="false"/>
 		<column name="desc" type="varchar" mess="opcq.title" length="200" defPattern="charDesc" i18nField="true" batchUpdate="true"/>
 		<column name="author" type="varchar" mess="opcq.author" length="100" defPattern="char60" i18nField="true" batchUpdate="true"/>
 		<column name="publisher" type="varchar" mess="opcq.publisher" length="100" defPattern="char100" i18nField="true" batchUpdate="true"/>
@@ -20,7 +21,7 @@
 		<column name="bookCatId" type="int_unsigned" mess="opcq.bookCat" defValue="0" defPattern="opcqBookCat" batchUpdate="false"/>
 		<column name="avail" type="bit" mess="opcq.avail" defValue="0" defPattern="check"/>
 		
-		<index name="module_code" columns="code" unique="true"/>
+		<index name="module_isbn" columns="isbn" unique="true"/>
 	</table>
 	
 	<table name="opcqmem" mess="opcq.mem" pk="id" >
@@ -38,7 +39,7 @@
 		<inherit name="id_irev" />
 		<column name="hId" type="int_unsigned" mess="opcq.mem" defValue="0" defPattern="opcqMem" dataImport="false" dataExport="false" buildin="true"/>
 		<column name="itemNo" type="varchar" mess="core.itemNo" length="12" defPattern="char6" dataEasy="true" dataImport="false" dataExport="false"/>
-		<column name="bookId" type="int_unsigned" mess="opcq.bookIsbn" defValue="0" defPattern="opcqBook" required="true"/>
+		<column name="bookId" type="int_unsigned" mess="opcq.bookCode" defValue="0" defPattern="opcqBook" required="true"/>
 		<column name="bDate" type="datetime" mess="opcq.bDate" defValue="NOW()" defPattern="date"/>
 		<column name="rDate" type="datetime" mess="opcq.rDate" defValue="NOW()" defPattern="date"/>
 		

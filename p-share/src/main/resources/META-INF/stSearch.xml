@@ -15,6 +15,7 @@
 		defCond="#opcqBook#.id != 0" sort="#opcqBook#.code" accessModule="opcqBook">
 		<format mess="core.defFormat">
 			<col col="code" mess="opcq.isbn"/>
+			<col col="isbn" mess="opcq.isbn"/>
 			<col col="desc" mess="opcq.title"/>
 			<col col="author" mess="opcq.author"/>
 		</format>

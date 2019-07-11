@@ -7,6 +7,8 @@
 	
 	<module name="opcqBook" mess="opcq.book" extend="false" mainTable="opcqbook" recType="" useAccess="true" useAttach="true" useBeShare="true" useApv="true" useChangenote="true" fmShare="Y" genCode_Type="BK">
 		<table name="opcqbook" key="id" c="true" r="true" d="true" u="true" initRow="1" hpk="" fKey="" order=""/>
+		
+		<checker class="com.multiable.opcq.ejb.checker.OpcqBookChecker"/>
 	</module>
 	
 	<module name="opcqMem" mess="opcq.mem" extend="false" mainTable="opcqmem" recType="" useAccess="true" useAttach="true" useBeShare="true" useApv="true" useChangenote="true" fmShare="Y" importThreadMode="false" genCode_Type="MEM">
