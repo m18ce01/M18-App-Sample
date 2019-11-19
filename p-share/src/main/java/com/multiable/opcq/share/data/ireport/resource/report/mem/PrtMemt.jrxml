@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
+<!-- 2019-07-11T10:40:46 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="PrtMemt" pageWidth="565" pageHeight="802" columnWidth="565" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="e988718d-2c1e-4b56-94d4-691bc2105a37">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="resource_opcq\ds\mem\memt.xml"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<parameter name="macvar" class="com.multiable.core.share.util.ireport.CawJrVar" isForPrompting="false"/>
+	<parameter name="macparam" class="com.multiable.opcq.share.data.ireport.mem.MemJrDto" isForPrompting="false"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="opcqmem.printCount" class="java.lang.Integer">
+		<fieldDescription><![CDATA[opcqmem.printCount]]></fieldDescription>
+	</field>
+	<field name="opcqmem.useAccessAutoCalc" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[opcqmem.useAccessAutoCalc]]></fieldDescription>
+	</field>
+	<field name="opcqmem.statusModifyDate" class="java.util.Date">
+		<fieldDescription><![CDATA[opcqmem.statusModifyDate]]></fieldDescription>
+	</field>
+	<field name="opcqmem.desc" class="java.lang.String">
+		<fieldDescription><![CDATA[opcqmem.desc]]></fieldDescription>
+	</field>
+	<field name="opcqmem.expiredUid" class="java.lang.Long">
+		<fieldDescription><![CDATA[opcqmem.expiredUid]]></fieldDescription>
+	</field>
+	<field name="opcqmem.card" class="java.lang.String">
+		<fieldDescription><![CDATA[opcqmem.card]]></fieldDescription>
+	</field>
+	<field name="opcqmem.lastModifyDate" class="java.util.Date">
+		<fieldDescription><![CDATA[opcqmem.lastModifyDate]]></fieldDescription>
+	</field>
+	<field name="opcqmemt.id" class="java.lang.Long">
+		<fieldDescription><![CDATA[opcqmemt.id]]></fieldDescription>
+	</field>
+	<field name="opcqmem.i18nField" class="java.lang.String">
+		<fieldDescription><![CDATA[opcqmem.i18nField]]></fieldDescription>
+	</field>
+	<field name="opcqmemt.iRev" class="java.lang.Integer">
+		<fieldDescription><![CDATA[opcqmemt.iRev]]></fieldDescription>
+	</field>
+	<field name="opcqmem.status" class="java.lang.String">
+		<fieldDescription><![CDATA[opcqmem.status]]></fieldDescription>
+	</field>
+	<field name="opcqmemt.bDate" class="java.util.Date">
+		<fieldDescription><![CDATA[opcqmemt.bDate]]></fieldDescription>
+	</field>
+	<field name="opcqmem.@sub@opcqmemt" class="java.lang.Object">
+		<fieldDescription><![CDATA[opcqmem.@sub@opcqmemt]]></fieldDescription>
+	</field>
+	<field name="opcqmemt.bookCode" class="java.lang.String">
+		<fieldDescription><![CDATA[opcqmemt.bookCode]]></fieldDescription>
+	</field>
+	<field name="opcqmem.createDate" class="java.util.Date">
+		<fieldDescription><![CDATA[opcqmem.createDate]]></fieldDescription>
+	</field>
+	<field name="opcqmem.beId" class="java.lang.Long">
+		<fieldDescription><![CDATA[opcqmem.beId]]></fieldDescription>
+	</field>
+	<field name="opcqmem.memId" class="java.lang.Long">
+		<fieldDescription><![CDATA[opcqmem.memId]]></fieldDescription>
+	</field>
+	<field name="opcqmemt.hId" class="java.lang.Long">
+		<fieldDescription><![CDATA[opcqmemt.hId]]></fieldDescription>
+	</field>
+	<field name="opcqmem.id" class="java.lang.Long">
+		<fieldDescription><![CDATA[opcqmem.id]]></fieldDescription>
+	</field>
+	<field name="opcqmem.iRev" class="java.lang.Integer">
+		<fieldDescription><![CDATA[opcqmem.iRev]]></fieldDescription>
+	</field>
+	<field name="opcqmem.sysJson" class="java.lang.String">
+		<fieldDescription><![CDATA[opcqmem.sysJson]]></fieldDescription>
+	</field>
+	<field name="opcqmemt.rDate" class="java.util.Date">
+		<fieldDescription><![CDATA[opcqmemt.rDate]]></fieldDescription>
+	</field>
+	<field name="opcqmem.addr" class="java.lang.String">
+		<fieldDescription><![CDATA[opcqmem.addr]]></fieldDescription>
+	</field>
+	<field name="opcqmem.code" class="java.lang.String">
+		<fieldDescription><![CDATA[opcqmem.code]]></fieldDescription>
+	</field>
+	<field name="opcqmem.lastModifyUid" class="java.lang.Long">
+		<fieldDescription><![CDATA[opcqmem.lastModifyUid]]></fieldDescription>
+	</field>
+	<field name="opcqmemt.bookId" class="java.lang.Long">
+		<fieldDescription><![CDATA[opcqmemt.bookId]]></fieldDescription>
+	</field>
+	<field name="opcqmem.locked" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[opcqmem.locked]]></fieldDescription>
+	</field>
+	<field name="opcqmem.useAccessWl" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[opcqmem.useAccessWl]]></fieldDescription>
+	</field>
+	<field name="opcqmem.email" class="java.lang.String">
+		<fieldDescription><![CDATA[opcqmem.email]]></fieldDescription>
+	</field>
+	<field name="opcqmem.expiredDate" class="java.util.Date">
+		<fieldDescription><![CDATA[opcqmem.expiredDate]]></fieldDescription>
+	</field>
+	<field name="opcqmemt.itemNo" class="java.lang.String">
+		<fieldDescription><![CDATA[opcqmemt.itemNo]]></fieldDescription>
+	</field>
+	<field name="opcqmem.expired" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[opcqmem.expired]]></fieldDescription>
+	</field>
+	<field name="opcqmemt.memId" class="java.lang.Long">
+		<fieldDescription><![CDATA[opcqmemt.memId]]></fieldDescription>
+	</field>
+	<field name="opcqmem.createUid" class="java.lang.Long">
+		<fieldDescription><![CDATA[opcqmem.createUid]]></fieldDescription>
+	</field>
+	<field name="opcqmem.useAccess" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[opcqmem.useAccess]]></fieldDescription>
+	</field>
+	<field name="opcqmemt.bookDesc" class="java.lang.String">
+		<fieldDescription><![CDATA[opcqmemt.bookDesc]]></fieldDescription>
+	</field>
+	<field name="opcqmem.useAccessBl" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[opcqmem.useAccessBl]]></fieldDescription>
+	</field>
+	<field name="opcqmem.viewCode" class="java.lang.String">
+		<fieldDescription><![CDATA[opcqmem.viewCode]]></fieldDescription>
+	</field>
+	<variable name="m.itemno" class="java.lang.Integer" calculation="Count">
+		<variableExpression><![CDATA[1]]></variableExpression>
+		<initialValueExpression><![CDATA[0]]></initialValueExpression>
+	</variable>
+	<group name="ITEMNO">
+		<groupExpression><![CDATA[$F{opcqmemt.id}]]></groupExpression>
+	</group>
+	<detail>
+		<band height="15" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="0" width="20" height="15" uuid="b5099068-9fc2-46da-a336-12ecf6bb9733">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{m.itemno}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="20" y="0" width="5" height="15" uuid="952f0f6c-a0f4-4131-b208-65e60c9c9f50">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[")"]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="156" y="0" width="324" height="15" uuid="8832e73b-02d2-498b-b696-e0361361c13b">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<printWhenExpression><![CDATA[$P{macparam}.isPrtBookDesc()]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{opcqmemt.bookDesc}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="35" y="0" width="120" height="15" isPrintWhenDetailOverflows="true" uuid="08150a0a-f754-48ed-ab9f-9dd80312f2bb">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle" markup="styled">
+					<font fontName="Dialog" size="10" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{opcqmemt.bookCode}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>
